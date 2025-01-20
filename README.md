@@ -1,6 +1,6 @@
-# Therapist Haven Bot
+# Therapist Bot
 
-Therapist Haven Bot is an AI-powered therapy companion that provides emotional support and wellness guidance. Built with Next.js and integrated with both Telegram and OpenAI's GPT-4, this platform offers a supportive space for users to express themselves and receive empathetic responses.
+Therapist Bot is an AI-powered therapy companion that provides emotional support and wellness guidance. Built with Next.js and integrated with both Telegram and OpenAI's GPT-4, this platform offers a supportive space for users to express themselves and receive empathetic responses.
 
 ## Features
 
@@ -25,7 +25,7 @@ Therapist Haven Bot is an AI-powered therapy companion that provides emotional s
 1. **Clone the repository:**
 
     ```bash
-    git clone [your-repository-url]
+    git clone https://github.com/0xmetaschool/therapist-bot.git
     ```
 
 2. **Navigate to the project directory:**
@@ -74,16 +74,6 @@ Therapist Haven Bot is an AI-powered therapy companion that provides emotional s
 - `/help` - Show available commands  
 - `/reset` - Start a fresh conversation  
 - `/resources` - Get mental health resources  
-
-## Project Structure
-
-```plaintext
-therapy-website/
-├── app/                 # Next.js app directory
-├── bot/                 # Telegram bot logic
-├── scripts/             # Bot startup scripts
-├── public/              # Static assets
-└── components/          # React components
 
 ## Features in Detail
 
