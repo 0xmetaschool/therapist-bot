@@ -1,36 +1,167 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Therapist Haven Bot
 
-## Getting Started
+Therapist Haven Bot is an AI-powered therapy companion that provides emotional support and wellness guidance. Built with Next.js and integrated with both Telegram and OpenAI's GPT-4, this platform offers a supportive space for users to express themselves and receive empathetic responses.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 🎯 24/7 AI-powered emotional support  
+- 🧘‍♀️ Personalized coping strategies  
+- 💡 Guided wellness techniques  
+- 🤖 Seamless Telegram integration  
+- 🎨 Beautiful, calming UI design  
+- 🔒 Private and secure conversations  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Next.js** for Frontend  
+- **Tailwind CSS** for styling  
+- **OpenAI API** for intelligent responses  
+- **Telegram Bot API** for messaging  
+- **Node.js** for bot server  
+- **Railway.app** for bot deployment and hosting  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Installation Steps
 
-## Learn More
+1. **Clone the repository:**
 
-To learn more about Next.js, take a look at the following resources:
+    ```bash
+    git clone [your-repository-url]
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Navigate to the project directory:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+    ```bash
+    cd therapy-website
+    ```
 
-## Deploy on Vercel
+3. **Install dependencies:**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    ```bash
+    npm install
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. **Set up environment variables:**  
+   Create an `.env` file in the root directory and add:
+
+    ```env
+    TELEGRAM_BOT_TOKEN=your_telegram_bot_token
+    OPENAI_API_KEY=your_openai_api_key
+    ```
+
+5. **Deploy bot to Railway:**
+
+    ```bash
+    # Install Railway CLI
+    npm i -g @railway/cli
+
+    # Login and deploy
+    railway login
+    railway init
+    railway up
+    ```
+
+6. **Run the Next.js development server:**
+
+    ```bash
+    npm run dev
+    ```
+
+    Visit `http://localhost:3000` to view the website.
+
+## Bot Commands
+
+- `/start` - Begin conversation with the bot  
+- `/help` - Show available commands  
+- `/reset` - Start a fresh conversation  
+- `/resources` - Get mental health resources  
+
+## Project Structure
+
+```plaintext
+therapy-website/
+├── app/                 # Next.js app directory
+├── bot/                 # Telegram bot logic
+├── scripts/             # Bot startup scripts
+├── public/              # Static assets
+└── components/          # React components
+
+## Features in Detail
+
+### AI-Powered Conversations
+
+- Empathetic responses using GPT-4  
+- Context-aware interactions  
+- Personalized support  
+
+### Beautiful UI
+
+- Calming color schemes  
+- Smooth animations  
+- Responsive design  
+
+### Telegram Integration
+
+- Real-time messaging  
+- Easy access via Telegram app  
+- Persistent conversation history  
+- 24/7 availability through Railway.app hosting  
+
+### Security & Privacy
+
+- No personal data storage  
+- End-to-end encryption via Telegram  
+- Anonymous conversations  
+- Clear usage boundaries and disclaimers  
+
+## Disclaimer
+
+This bot is not a replacement for professional mental health services. It's designed to provide supplementary support and should not be used in crisis situations.
+
+## Contributing
+
+1. Fork the repository  
+2. Create your feature branch:  
+
+    ```bash
+    git checkout -b feature/YourFeature
+    ```
+
+3. Commit your changes:  
+
+    ```bash
+    git commit -m 'Add YourFeature'
+    ```
+
+4. Push to the branch:  
+
+    ```bash
+    git push origin feature/YourFeature
+    ```
+
+5. Open a Pull Request  
+
+## Running in Production
+
+1. **Build the Next.js app:**
+
+    ```bash
+    npm run build
+    ```
+
+2. **Deploy the website to Vercel or your preferred platform.**
+
+3. **Deploy the bot to Railway.app:**
+
+    ```bash
+    railway up
+    ```
+
+    The bot will run continuously on Railway.app's servers, ensuring 24/7 availability.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Support
+
+For support, please open an issue in the GitHub repository or contact us through the website.
