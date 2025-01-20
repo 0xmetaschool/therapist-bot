@@ -75,34 +75,6 @@ Therapist Bot is an AI-powered therapy companion that provides emotional support
 - `/reset` - Start a fresh conversation  
 - `/resources` - Get mental health resources  
 
-## Features in Detail
-
-### AI-Powered Conversations
-
-- Empathetic responses using GPT-4  
-- Context-aware interactions  
-- Personalized support  
-
-### Beautiful UI
-
-- Calming color schemes  
-- Smooth animations  
-- Responsive design  
-
-### Telegram Integration
-
-- Real-time messaging  
-- Easy access via Telegram app  
-- Persistent conversation history  
-- 24/7 availability through Railway.app hosting  
-
-### Security & Privacy
-
-- No personal data storage  
-- End-to-end encryption via Telegram  
-- Anonymous conversations  
-- Clear usage boundaries and disclaimers  
-
 ## Disclaimer
 
 This bot is not a replacement for professional mental health services. It's designed to provide supplementary support and should not be used in crisis situations.
