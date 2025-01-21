@@ -20,6 +20,11 @@ Therapist Bot is an AI-powered therapy companion that provides emotional support
 - **Node.js** for bot server  
 - **Railway.app** for bot deployment and hosting  
 
+## Use Cases
+- Daily Emotional Support 
+- 24/7 virtual therapist
+- immediate emotional support and coping strategies.
+
 ## Installation Steps
 
 1. **Clone the repository:**
@@ -49,7 +54,7 @@ Therapist Bot is an AI-powered therapy companion that provides emotional support
     ```
 
 5. **Deploy bot to Railway:**
-
+   Create an account on https://railway.com/
     ```bash
     # Install Railway CLI
     npm i -g @railway/cli
@@ -80,27 +85,12 @@ Therapist Bot is an AI-powered therapy companion that provides emotional support
 This bot is not a replacement for professional mental health services. It's designed to provide supplementary support and should not be used in crisis situations.
 
 ## Contributing
-
-1. Fork the repository  
-2. Create your feature branch:  
-
-    ```bash
-    git checkout -b feature/YourFeature
-    ```
-
-3. Commit your changes:  
-
-    ```bash
-    git commit -m 'Add YourFeature'
-    ```
-
-4. Push to the branch:  
-
-    ```bash
-    git push origin feature/YourFeature
-    ```
-
-5. Open a Pull Request  
+We love contributions! Here's how you can help make the project even better:
+* Fork the project (gh repo fork https://github.com/0xmetaschool/ResearchPaperAI.git)
+* Create your feature branch (git checkout -b feature/AmazingFeature)
+* Commit your changes (git commit -m 'Add some AmazingFeature')
+* Push to the branch (git push origin feature/AmazingFeature)
+* Open a Pull Request 
 
 ## Running in Production
 
@@ -122,7 +112,7 @@ This bot is not a replacement for professional mental health services. It's desi
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/0xmetaschool/therapist-bot/blob/main/LICENSE) file for details.
 
 ## Support
 
