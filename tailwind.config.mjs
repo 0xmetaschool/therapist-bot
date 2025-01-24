@@ -15,6 +15,7 @@ module.exports = {
         'float-delayed': 'float 4s ease-in-out infinite',
         'fade-in': 'fadeIn 0.5s ease-in forwards',
         'fade-up': 'fadeUp 0.5s ease-out forwards',
+        'scroll': 'scroll 40s linear infinite', // Added scroll animation
       },
       keyframes: {
         blob: {
@@ -59,6 +60,14 @@ module.exports = {
           '100%': { 
             opacity: '1',
             transform: 'translateY(0)'
+          }
+        },
+        scroll: { // Added scroll keyframes
+          '0%': { 
+            transform: 'translateX(0)' 
+          },
+          '100%': { 
+            transform: 'translateX(-50%)' 
           }
         }
       },
