@@ -75,12 +75,12 @@ Therapist Bot is an AI-powered therapy companion that provides emotional support
 
 ## Screenshots
 <div style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/0xmetaschool/therapist-bot/blob/main/public/therapist-bot-landing-page?raw=true" alt="Therapist-bot landingpage screenshot" style="width: 49%; border: 2px solid black;" />
+  <img src="https://github.com/0xmetaschool/therapist-bot/blob/main/public/therapist-bot-landing-page.png?raw=true" alt="Therapist-bot landingpage screenshot" style="width: 49%; border: 2px solid black;" />
   <img src="https://github.com/0xmetaschool/therapist-bot/blob/main/public/therapist-bot-features.png?raw=true" alt="Therapist-bot features screenshot" style="width: 49%; border: 2px solid black;" />
 </div>
 <div style="display: flex; justify-content: space-between;">
   <img src="https://github.com/0xmetaschool/therapist-bot/blob/main/public/therapist-bot-technique.png" alt="Therapist-bot technique screenshot" style="width: 49%; border: 2px solid black;" />
-  <img src="https://github.com/0xmetaschool/therapist-bot/blob/main/public/therapist-bot-connect?raw=true" alt="Therapist-bot connect screenshot" style="width: 49%; border: 2px solid black;" />
+  <img src="https://github.com/0xmetaschool/therapist-bot/blob/main/public/therapist-bot-connect.png?raw=true" alt="Therapist-bot connect screenshot" style="width: 49%; border: 2px solid black;" />
 </div>
 
 
