@@ -97,7 +97,7 @@ This bot is not a replacement for professional mental health services. It's desi
 
 ## Contributing
 We love contributions! Here's how you can help make the project even better:
-* Fork the project (gh repo fork https://github.com/0xmetaschool/ResearchPaperAI.git)
+* Fork the project (gh repo fork https://github.com/0xmetaschool/therapist-bot.git)
 * Create your feature branch (git checkout -b feature/AmazingFeature)
 * Commit your changes (git commit -m 'Add some AmazingFeature')
 * Push to the branch (git push origin feature/AmazingFeature)
